@@ -1,0 +1,54 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* App container */
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* Wave container */
+.wave-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Ensure content stays above waves */
+.page-container {
+  position: relative;
+  z-index: 1;
+  background: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .wave-container {
+    height: 60px;
+  }
+}
+
+/* Animation for the wave */
+@keyframes wave {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-25%) translateY(5px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "yourname/phpmailer-mvp",
+  "description": "Minimal PHPMailer starter (Bootstrap form + SMTP)",
+  "type": "project",
+  "require": {
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
