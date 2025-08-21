@@ -2,6 +2,24 @@
 
 A minimal, clean starter to send emails with **PHPMailer**. Includes a Bootstrap 5 demo form, attachment support, CC, and SMTP config.
 
+USER SIDE
+![enroll1](https://github.com/user-attachments/assets/3d44f0e5-267c-4a05-99ef-b102220cab11)
+
+![enroll2](https://github.com/user-attachments/assets/9626441c-ceec-427d-9ed7-ed7e51ea882f)
+
+![enroll3](https://github.com/user-attachments/assets/6c1a5ad7-73f8-4ca7-a088-afdc5265365f)
+
+![enroll4](https://github.com/user-attachments/assets/b3eaa474-fcec-457e-82c1-15c428cbb541)
+
+![enroll5](https://github.com/user-attachments/assets/46c1fba6-5511-4852-97d3-01fc697b948f)
+
+ADMIN SIDE
+
+![enrolladmin1](https://github.com/user-attachments/assets/08d53b3e-e488-4f5b-abe1-0ea73f27d304)
+
+![enrolladmin2](https://github.com/user-attachments/assets/d066950e-d2fd-4665-b13f-d2a4859c6e6e)
+
+
 ## Quick Start
 
 1. **Download & extract** this zip.
