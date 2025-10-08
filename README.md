@@ -72,3 +72,8 @@ phpmailer-mvp/
 ## Security Notes
 - Never commit real passwords. Use environment variables in production.
 - This demo escapes HTML and sets plain-text `AltBody`. Add server-side validation as needed.
+
+admin 
+
+admin
+admin2025
